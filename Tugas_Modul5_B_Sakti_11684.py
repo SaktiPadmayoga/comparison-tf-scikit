@@ -5,8 +5,8 @@ from PIL import Image
 import os
 
 # Definisikan jalur model
-model_directory = r"/Users/saktiyoga/Development/University/Semester 5/PMDPM/Tugas_Modul5_B_Sakti_11684"
-model_path = os.path.join(model_directory, 'best_model.pkl')
+# model_directory = r"/Users/saktiyoga/Development/University/Semester 5/PMDPM/Tugas_Modul5_B_Sakti_11684"
+model_path = os.path.join('best_model.pkl')
 
 # Load the model
 if os.path.exists(model_path):
